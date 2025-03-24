@@ -6,7 +6,7 @@ function Car(make, model) {
 		this.model=model
 	}
 }
-	car.prototype.getMakeModel(){
+	Car.prototype.getMakeModel(){
 		return `${this.make} ${this.model} `
 	}
 
